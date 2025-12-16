@@ -64,7 +64,7 @@ jobs:
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
           sparse-checkout: |
             INSTAGRAM/
-            VIDEO_EDITING_QUALITY/
+            VIDEO_EDITING_WATERMARK/
             counter_upload.txt
             video_end_tracker.txt
             requirements.txt
@@ -177,7 +177,7 @@ jobs:
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
           sparse-checkout: |
             FACEBOOK/
-            VIDEO_EDITING_QUALITY/
+            VIDEO_EDITING_WATERMARK/
             counter_upload.txt
             video_end_tracker.txt
             requirements.txt
